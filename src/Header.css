@@ -1,13 +1,35 @@
-.header-background {
-    background-color: #330099;
-    position: fixed;
+.main-page-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-}
 
-h1 {
-    margin-top: 45vh;
-    color: #CCCCFF;
+    .header-background {
+        background-color: #330099;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+
+        h1 {
+            margin-top: 45vh;
+            color: #DDDDFF;
+        }
+    }
+    
+    .about-me-background {
+        background-color: #EEEEFF;
+
+        h2 {
+            color: #220077;
+            text-align: left;
+            padding-left: 2vw;
+        }
+
+        p {
+            color: #110044;
+            text-align: left;
+            padding-left: 2vw;
+        }
+    }
 }
