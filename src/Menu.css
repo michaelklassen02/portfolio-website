@@ -1,0 +1,8 @@
+.menu-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: #EEEEFF;
+}
