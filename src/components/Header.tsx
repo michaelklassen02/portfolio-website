@@ -9,14 +9,6 @@ export default function Header () {
                     Michael Klassen
                 </h1>
             </div>
-            <div className='about-me-background'>
-                <h2>
-                    About Me
-                </h2>
-                <p>
-                    Lorem ipsum dolor
-                </p>
-            </div>
         </div>
     )
 }
