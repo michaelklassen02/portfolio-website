@@ -1,0 +1,19 @@
+.button {
+    margin: 10px;
+    outline: 2px solid #330099;
+    background-color: #EEEEFF;
+    border-radius: 5px;
+
+    p {
+        color: #330099;
+        padding: 7px;
+    }
+}
+
+.button:hover {
+    background-color: #330099;
+
+    p {
+        color: #DDDDFF;
+    }
+}

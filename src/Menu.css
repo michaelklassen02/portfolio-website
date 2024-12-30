@@ -2,7 +2,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 20vw;
+    width: 15vw;
     height: 100vh;
     background-color: #EEEEFF;
+    padding-top: 50px;
 }
