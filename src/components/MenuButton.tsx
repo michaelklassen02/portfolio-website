@@ -1,5 +1,5 @@
-import './MenuButton.css'
-import {MenuButtonProps} from './propTypes.tsx'
+import '../styles/MenuButton.css'
+import {MenuButtonProps} from '../types/propTypes.tsx'
 
 export default function MenuButton (props: MenuButtonProps) {
     return (

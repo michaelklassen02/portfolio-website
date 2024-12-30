@@ -1,4 +1,4 @@
-import './Menu.css'
+import '../styles/Menu.css'
 import {useState} from 'react'
 import HamburgerIcon from './HamburgerIcon.tsx'
 import MenuButton from './MenuButton.tsx'

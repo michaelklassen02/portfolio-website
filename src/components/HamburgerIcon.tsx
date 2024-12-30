@@ -1,5 +1,5 @@
-import './HamburgerIcon.css'
-import {HamburgerIconProps} from './propTypes.tsx'
+import '../styles/HamburgerIcon.css'
+import {HamburgerIconProps} from '../types/propTypes.tsx'
 
 export default function HamburgerIcon (props: HamburgerIconProps) {
     return (
