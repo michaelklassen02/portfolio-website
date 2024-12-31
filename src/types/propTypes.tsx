@@ -5,4 +5,5 @@ export interface HamburgerIconProps {
 
 export interface MenuButtonProps {
     name: string;
+    link: string;
 }

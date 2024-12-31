@@ -4,7 +4,7 @@
     background-color: #EEEEFF;
     border-radius: 5px;
 
-    p {
+    .button-text {
         color: #330099;
         padding: 7px;
     }
@@ -13,7 +13,7 @@
 .button:hover {
     background-color: #330099;
 
-    p {
+    .button-text {
         color: #DDDDFF;
     }
 }

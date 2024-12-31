@@ -15,11 +15,11 @@ export default function Menu () {
             {open 
             ? 
                 <div className='menu-container'> 
-                    <MenuButton name='About Me'/>
-                    <MenuButton name='Qualifications'/>
-                    <MenuButton name='Work Experience'/>
-                    <MenuButton name='Technical Demos'/>
-                    <MenuButton name='Contact Me'/>
+                    <MenuButton name='About Me' link='/aboutme'/>
+                    <MenuButton name='Qualifications' link='/qualifications'/>
+                    <MenuButton name='Work Experience' link='/workexperience'/>
+                    <MenuButton name='Technical Demos' link='/technicaldemos'/>
+                    <MenuButton name='Contact Me' link='/contact'/>
                 </div>
             : 
                 <div />
