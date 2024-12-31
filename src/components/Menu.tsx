@@ -15,6 +15,7 @@ export default function Menu () {
             {open 
             ? 
                 <div className='menu-container'> 
+                    <MenuButton name='Home' link='/'/>
                     <MenuButton name='About Me' link='/aboutme'/>
                     <MenuButton name='Qualifications' link='/qualifications'/>
                     <MenuButton name='Work Experience' link='/workexperience'/>
