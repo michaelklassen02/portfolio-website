@@ -19,6 +19,7 @@ function App() {
         <Route path='/technicaldemos' element={<TechnicalDemos />}/>
         <Route path='/contact' element={<Contact />}/>
       </Routes>
+      <div className='sidebar'/>
       <Menu />
     </BrowserRouter>
   )
