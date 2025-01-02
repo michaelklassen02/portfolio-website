@@ -1,0 +1,41 @@
+.work-experience-box {
+    margin-left: 16vw;
+    margin-right: 2vw;
+    outline: 1px solid #330099;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+
+    .role-info {
+        display: flex;
+        flex-direction: row;
+
+        h3 {
+            color: #330099;
+            text-align: left;
+            padding-left: 1vw;
+            flex-grow: 1;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+
+        p {
+            text-align: right;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            flex-grow: 1;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+    }
+
+    p {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+}
+
+.work-experience-box:hover {
+    background-color: #DDDDFF;
+}
