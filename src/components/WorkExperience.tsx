@@ -1,9 +1,11 @@
 import '../styles/Page.css'
 import WorkExperienceBox from './WorkExperienceBox'
+import WorkExperienceModal from './WorkExperienceModal'
 
 export default function WorkExperience () {
     return (
         <div className='background'>
+            <WorkExperienceModal />
             <h2>
                 Work Experience
             </h2>

@@ -16,3 +16,14 @@ export interface WorkExperienceBoxProps {
     endYear: string;
     companyName: string;
 }
+
+export interface WorkExperienceModalProps {
+    jobTitle: string;
+    startMonth: string;
+    startYear: string;
+    endMonth: string;
+    endYear: string;
+    companyName: string;
+    jobDescription: string;
+    skills: string[];
+}
