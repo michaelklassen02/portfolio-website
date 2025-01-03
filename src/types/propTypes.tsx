@@ -15,9 +15,10 @@ export interface WorkExperienceBoxProps {
     endMonth: string;
     endYear: string;
     companyName: string;
+    onClick: () => void;
 }
 
-export interface WorkExperienceModalProps {
+export interface WorkExperienceModalData {
     jobTitle: string;
     startMonth: string;
     startYear: string;
@@ -26,4 +27,10 @@ export interface WorkExperienceModalProps {
     companyName: string;
     jobDescription: string;
     skills: string[];
+}
+
+export interface WorkExperienceModalProps {
+    open: boolean;
+    openCloseFunction: (status: number) => void;
+    data: WorkExperienceModalData|null;
 }

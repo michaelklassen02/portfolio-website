@@ -1,6 +1,6 @@
-import {WorkExperienceModalProps} from '../types/propTypes'
+import {WorkExperienceModalData} from '../types/propTypes'
 
-export const WorkExperienceModalData: WorkExperienceModalProps[] = [
+export const WorkExperienceModalInfo: WorkExperienceModalData[] = [
     {
         jobTitle: 'Junior Developer Co-Op',
         startMonth: 'January',
