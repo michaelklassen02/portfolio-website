@@ -5,7 +5,7 @@ import { WorkExperienceModalInfo } from '../constants/data'
 import { useState } from 'react'
 
 export default function WorkExperience () {
-    const [modalStatus, setModalStatus] = useState(1)
+    const [modalStatus, setModalStatus] = useState(0)
 
     const ModalInfo = modalStatus > 0 ? WorkExperienceModalInfo[modalStatus - 1] : null
 
