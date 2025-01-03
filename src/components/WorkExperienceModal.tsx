@@ -19,12 +19,14 @@ export default function WorkExperienceModal (props: WorkExperienceModalProps) {
     }
 
     return (
-        <Modal isOpen={props.open} onRequestClose={requestClose}>
-            <h3>{modalData.jobTitle}</h3>
-            <p>{modalData.startMonth} {modalData.startYear}-{modalData.endMonth} {modalData.endYear}</p>
-            <p>{modalData.companyName}</p>
-            <p>{modalData.jobDescription}</p>
-            <p>{modalData.skills}</p>
+        <Modal isOpen={props.open} onRequestClose={requestClose} className='modal' overlayClassName='modal-overlay'>
+            <div className='role-info'>
+                <h3 className='job-title'>{modalData.jobTitle}</h3>
+                <p className='job-dates'>{modalData.startMonth} {modalData.startYear}-{modalData.endMonth} {modalData.endYear}</p>
+            </div>
+            <p className='company-name'>{modalData.companyName}</p>
+            <p className='job-description'>{modalData.jobDescription}</p>
+            <p className='skills'>{modalData.skills}</p>
         </Modal>
     )
 }

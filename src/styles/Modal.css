@@ -1,17 +1,61 @@
-h3 {
-    color: #330099;
-    text-align: left;
-    padding-left: 1vw;
-    flex-grow: 1;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+.modal {
+    background-color: #EEEEFF;
+    opacity: 1;
+    height: 94vh;
+    width: 96vw;
+    margin: 3vh 2vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-color: #330099;
+
+    .role-info{
+        display: flex;
+        flex-direction: row;
+
+        h3 {
+            color: #330099;
+            text-align: left;
+            padding-left: 1vw;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            flex-grow: 1;
+        }
+    
+        .job-dates {
+            padding-left: 1vw;
+            padding-right: 1vw;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            flex-grow: 1;
+            text-align: right;
+        }
+    }
+    
+    p {
+        color: black;
+    }
+    
+    .company-name {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .job-description {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
 }
 
-p {
-    padding-left: 1vw;
-    padding-right: 1vw;
-    flex-grow: 1;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    color: black;
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(51, 00, 153, 0.5);
 }
