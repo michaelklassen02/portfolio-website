@@ -5,7 +5,7 @@ import QualificationsModal from './QualificationsModal'
 import QualificationsBox from './QualificationsBox'
 
 export default function Qualifications () {
-    const [modalStatus, setModalStatus] = useState(1)
+    const [modalStatus, setModalStatus] = useState(0)
 
     const ModalInfo = modalStatus > 0 ? QualificationsModalInfo[modalStatus - 1] : null
 
