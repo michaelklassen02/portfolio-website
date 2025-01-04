@@ -49,6 +49,10 @@
         padding-left: 1vw;
         padding-right: 1vw;
     }
+
+    li {
+        color: black;
+    }
 }
 
 .modal-overlay {

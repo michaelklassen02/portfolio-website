@@ -34,3 +34,20 @@ export interface WorkExperienceModalProps {
     openCloseFunction: (status: number) => void;
     data: WorkExperienceModalData|null;
 }
+
+export interface QualificationsBoxProps {
+    title: string;
+    description: string;
+    onClick: () => void;
+}
+
+export interface QualificationsModalData {
+    title: string;
+    description: string[];
+}
+
+export interface QualificationsModalProps {
+    open: boolean;
+    openCloseFunction: (status: number) => void;
+    data: QualificationsModalData|null;
+}
