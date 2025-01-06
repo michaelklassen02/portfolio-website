@@ -8,6 +8,11 @@ export interface MenuButtonProps {
     link: string;
 }
 
+export interface ContactButtonProps {
+    name: string;
+    link: string;
+}
+
 export interface WorkExperienceBoxProps {
     jobTitle: string;
     startMonth: string;

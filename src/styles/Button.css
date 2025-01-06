@@ -1,0 +1,39 @@
+.button {
+    outline: 2px solid #330099;
+    background-color: #EEEEFF;
+
+    .button-text {
+        color: #330099;
+        text-align: center;
+    }
+}
+
+.menu {
+    margin: 10px;
+    border-radius: 5px;
+
+    .button-text {
+        padding: 7px;
+    }
+}
+
+.contact {
+    border-radius: 10px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 6vh;
+    line-height: 6vh;
+    margin-top: 2vh;
+
+    .button-text {
+        font-weight: 600;
+    }
+}
+
+.button:hover {
+    background-color: #330099;
+
+    .button-text {
+        color: #DDDDFF;
+    }
+}
