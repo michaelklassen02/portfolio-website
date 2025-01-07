@@ -7,7 +7,7 @@ export default function TechnicalDemos () {
                 Technical Demos
             </h2>
             <p>
-                Lorem ipsum dolor
+                Coming soon!
             </p>
         </div>
     )
