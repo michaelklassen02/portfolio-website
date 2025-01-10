@@ -8,7 +8,7 @@ export default function TechnicalDemoModal (props: TechnicalDemoModalProps) {
         props.openCloseFunction(0);
     }
 
-    const chooseDisplayComponent = () => {
+    const ChooseDisplayComponent = () => {
         switch (props.modalTitle) {
             case 'Graph Demo':
                 return <GraphDemo />
@@ -22,7 +22,9 @@ export default function TechnicalDemoModal (props: TechnicalDemoModalProps) {
             <div className='role-info'>
                 <h3 className='job-title'>{props.modalTitle}</h3>
             </div>
-            {chooseDisplayComponent()}
+            <div>
+                {ChooseDisplayComponent()}
+            </div>
         </Modal>
     )
 }
