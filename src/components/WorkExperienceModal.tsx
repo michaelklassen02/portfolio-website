@@ -26,7 +26,12 @@ export default function WorkExperienceModal (props: WorkExperienceModalProps) {
             </div>
             <p className='company-name'>{modalData.companyName}</p>
             <p className='job-description'>{modalData.jobDescription}</p>
-            <p className='skills'>{modalData.skills}</p>
+            <h4>Skills</h4>
+            <ul>
+                {modalData.skills.map( (item) => 
+                    <li>{item}</li>
+                )}
+            </ul>
         </Modal>
     )
 }
