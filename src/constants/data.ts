@@ -31,7 +31,7 @@ export const WorkExperienceModalInfo: WorkExperienceModalData[] = [
         ]
     },
     {
-        jobTitle: 'Software Developer',
+        jobTitle: 'Software Developer Co-Op',
         startMonth: 'January',
         startYear: '2021',
         endMonth: 'April',
@@ -44,7 +44,7 @@ export const WorkExperienceModalInfo: WorkExperienceModalData[] = [
         ]
     },
     {
-        jobTitle: 'Junior Software Developer',
+        jobTitle: 'Junior Software Developer Co-Op',
         startMonth: 'May',
         startYear: '2020',
         endMonth: 'August',

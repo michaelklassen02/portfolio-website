@@ -38,7 +38,7 @@ export default function WorkExperience () {
                 onClick={() => changeModal(2)}
             />
             <WorkExperienceBox 
-                jobTitle='Software Developer' 
+                jobTitle='Software Developer Co-Op' 
                 startMonth='January'
                 startYear='2021'
                 endMonth='April'
@@ -47,7 +47,7 @@ export default function WorkExperience () {
                 onClick={() => changeModal(3)}
             />
             <WorkExperienceBox 
-                jobTitle='Junior Software Developer' 
+                jobTitle='Junior Software Developer Co-Op' 
                 startMonth='May'
                 startYear='2020'
                 endMonth='August'
