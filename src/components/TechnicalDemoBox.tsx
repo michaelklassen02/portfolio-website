@@ -1,7 +1,7 @@
 import '../styles/Box.css'
 import { GenericBoxProps } from '../types/propTypes'
 
-export default function WorkExperienceBox (props: GenericBoxProps) {
+export default function TechnicalDemoBox (props: GenericBoxProps) {
     return (
         <div className='work-experience-box' onClick={props.onClick}>
             <div className='role-info'>

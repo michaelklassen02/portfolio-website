@@ -40,7 +40,7 @@ export interface WorkExperienceModalProps {
     data: WorkExperienceModalData|null;
 }
 
-export interface QualificationsBoxProps {
+export interface GenericBoxProps {
     title: string;
     description: string;
     onClick: () => void;
@@ -55,4 +55,15 @@ export interface QualificationsModalProps {
     open: boolean;
     openCloseFunction: (status: number) => void;
     data: QualificationsModalData|null;
+}
+
+export interface GenericModalProps {
+    open: boolean;
+    openCloseFunction: (status: number) => void;
+}
+
+export interface TechnicalDemoModalProps {
+    open: boolean;
+    openCloseFunction: (status: number) => void;
+    modalTitle: string;
 }
